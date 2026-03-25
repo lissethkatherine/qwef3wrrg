@@ -15,7 +15,7 @@
             <button onclick="calcularMovimientos()" type="submit">Calcular Movimientos</button>
         </div>
         <span id="ajedrez"></span>
-        <script src="script.js"></script>
+        <script src="node.js"></script>
     </div>
 </body>
 </html>
