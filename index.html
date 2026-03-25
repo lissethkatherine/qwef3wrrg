@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Caballo de ajedrez</title>
+</head>
+<body>
+    <div class="container">
+    <h1><strong>Caballo de Ajedrez</strong></h1>
+        <div class="fila">
+            <label>Fila <input type="number" id="fila" min="1" max="8"></label> 
+            <label>Columna <input type="number" id="columna" min="1" max="8">  </label> 
+            <button onclick="calcularMovimientos()" type="submit">Calcular Movimientos</button>
+        </div>
+        <span id="ajedrez"></span>
+        <script src="node.js"></script>
+    </div>
+</body>
+</html>
